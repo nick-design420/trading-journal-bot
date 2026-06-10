@@ -39,22 +39,13 @@ Fecha de hoy si no se especifica: """ + datetime.now().strftime("%Y-%m-%d")
 
 
 def get_google_creds():
-    """Construye credenciales desde variables individuales. Resuelve Invalid JWT Signature."""
-    raw = os.environ.get("GOOGLE_PRIVATE_KEY", "")
-    private_key = raw.replace("\\n", "\n") if "\\n" in raw else raw
-    client_email = os.environ.get("GOOGLE_CLIENT_EMAIL", "")
-    return {
-        "type": "service_account",
-        "project_id": os.environ.get("GOOGLE_PROJECT_ID", ""),
-        "private_key_id": "key",
-        "private_key": private_key,
-        "client_email": client_email,
-        "client_id": "",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": f"https://www.googleapis.com/robot/v1/metadata/x509/{client_email.replace('@', '%40')}"
-    }
+    """Construye credenciales desde GOOGLE_CREDENTIALS (JSON completo)."""
+    creds_raw = os.environ.get("GOOGLE_CREDENTIALS", "")
+    creds_dict = json.loads(creds_raw)
+    # Forzar saltos de línea reales en la private_key
+    pk = creds_dict.get("private_key", "")
+    creds_dict["private_key"] = pk.replace("\\n", "\n")
+    return creds_dict
 
 
 def parse_trade_message(body, image_url=None):
