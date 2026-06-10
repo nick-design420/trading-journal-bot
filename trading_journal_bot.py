@@ -88,7 +88,7 @@ def save_to_sheets(trade: dict, raw_message: str):
             "https://spreadsheets.google.com/feeds",
             "https://www.googleapis.com/auth/drive"
         ]
-        creds  = Credentials.from_service_account_file("credentials.json", scopes=scope)
+        creds = Credentials.from_service_account_file("/app/credentials.json", scopes=scope)
         client = gspread.authorize(creds)
         sheet  = client.open(GOOGLE_SHEET_NAME).worksheet("DIARIO")
         
@@ -136,10 +136,10 @@ def handle_summary(phone: str):
     """Genera resumen semanal desde Google Sheets."""
     try:
         scope  = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-        creds  = Credentials.from_service_account_file("credentials.json", scopes=scope)
+        
         client = gspread.authorize(creds)
         sheet  = client.open(GOOGLE_SHEET_NAME).worksheet("DIARIO")
-        
+        creds = Credentials.from_service_account_file("/app/credentials.json", scopes=scope)
         records = sheet.get_all_records()
         week = datetime.now().strftime("%W")
         month = datetime.now().strftime("%-m")
