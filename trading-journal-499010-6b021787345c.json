@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "trading-journal-499010",
+  "private_key_id": "6b021787345cdc8277ae7d2b0cbe0eda3bebe87b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZAwJjTu3KCkr7\nmodwwQiVvUTGVVWQQ1oaejBfzvIXkCPxIFekGsRsGpq9hFZtPe451jkZxhOSM9f3\nHlBfdKWq0yAE63maCDeDsUhxliCmEWYkw+k9yx9XTCnXn/V4x0TRCdMkHOMvQclO\nYHMshEtyjy85WLM0iubcib+rCv3O/5yjwsniC5yv9cyDCRCSotUMfZiEzb93TSHd\nbRfeS8uESDVrgCslE2dqMXWiageI6PGZyGC0WvM8QbuMFFrHIdt3HEpS2I7Jh7eu\nTU41iL/qIyvBAxa03EU3BXS03LUESmfjJFMmGzRxA9QEpPvkyh63jAWUnmfOt4DU\nbZK0iDVDAgMBAAECggEAL0KlA/yd85ivQMEkCu23EWkxL6JI6oyIdGi03UCj33bQ\nJQSeoYoEyeg3V9uYuNy6Y1UghVjqTTZGK7ap2Uf9hkjJWdjwWBe/A0qaFMaVoKT8\nYjhaNM9mKWxYVnGrE10OQxoJJf22ikWg8hU2L/U1uyKsragACwrPAStslvLjWG9S\nf98NjDRSPJNFL3TmEwmPSFvf80WKWZhG4emZLaw2M388UgI8xiB8EA3PPBUDeLXr\nH+NlypfTo7IQL/eIbeL/CnWjeD1KZ38gfO0sBwyB14loplzahHT3X/fMZ5KK+139\nmcQBSEA7QWS4Rzxek5zLKP5hwRz8u4EThjG9LjIlCQKBgQD9PAnb1Pejk505oxwJ\n9bl0jzyrupxKLxyhF+HNRIACas4Pqs8VL2DhP1q/aJo3jl/SG3npATD6KLIUeBGk\n74511rghha/dODRzCtN72UuMvZZVJsLFpl1W/Y2XvbbnEOyZfconjnZhLGdhs4SY\nhQPhsup7z8PXJV26G3HrkTJKywKBgQDbYbQmt5XqcMFmQyiXuuYyRvBUjzDhyXcV\newSWAqMrnxjPEdqRa3SV7Id/p9t2Fd0vkWrk04T6ovFPfkWf6Daac1loXKWjKNEx\nNljGPXx0iwtp2R5yDewRmwf8ZtAX8NHmwhdrHDaD3pRKkfk+s/0upU5lycp82cht\nNIaJxJ2YaQKBgGoV/89PTZsCWQhvU2y8uz+gTftnRtgxGl5GQfsbKkFY+xBHL0+h\ntIVIZDzxlkGV7IB5sD2zmRADgm7eyg19qgGlvSeV+NHFHPvg2i31HxhLyDHN9iSV\nCF9MA0hBWuE8DtJShyDBJsiYsIqWiQLYHoMrz92kcVetOLGhk7zq69W3AoGBALQg\nSrynbC4sGn+OkNvUF4IcgOPNFkOtGVvHwAIzdCoy3TnX3PAdnIIkzTRhbG5OkWen\nLG9pxPvNofi1IxGipoK2RyjLOSz4LJsNlmJexbsjF2H3ZWocSEJEWpBBEoc1sgKY\nRoYpihFIRdXceRukyTLtg6tLvjg40LnpsLWZfBRRAoGAZlVMyZOOTWz0M0JfiKVC\n+FaefS6dlYKt4H/Fg93VXO4tbwuUTN081FrKIPNTj+ochbzKbjoS6bFBhtuj2GK+\na8G/QtH8e7oXLMAIFBN6SsBV5u3leOx9IjHryt2s2J5nYInbWfU/ljVAVpOlTRts\nkJJINaGeHQ7zmnJlhGoywAg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "trading-journal-sheets@trading-journal-499010.iam.gserviceaccount.com",
+  "client_id": "115211216026030873991",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/trading-journal-sheets%40trading-journal-499010.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
