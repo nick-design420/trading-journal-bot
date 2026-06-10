@@ -101,7 +101,7 @@ def save_to_sheets(trade, raw_message):
             now.strftime("%W"),
             now.month,
             now.year,
-            raw_message
+            raw_message or "imagen"
         ]
         sheet.append_row(row)
         return True
